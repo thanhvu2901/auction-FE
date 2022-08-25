@@ -1,0 +1,14 @@
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+.admin-app-container {
+  display: flex;
+  justify-content: left;
+}
+.admin-sidebar {
+  height: 600px;
+  width: 300px;
+}
+.admin-content {
+  height: 600px;
+  width: 100%;
+  overflow: scroll;
+}

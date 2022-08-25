@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.outer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 150px;
+  width: 100%;
+}
+
+.inner1 {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.outer1 .form-control:focus {
+  border-color: #33ff00;
+  box-shadow: none;
+}
+
+.outer1 h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.form-2 .form-control {
+  height: 100px;
+  text-align: left;
+}
+.form-6 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
+  text-align: left;
+  display: flex;
+}
+.form-6 input {
+  margin-top: 0.4rem;
+}
+
+.form-7 {
+  margin-bottom: 0.5rem;
+}
+.form-7 label {
+  margin-right: 1rem;
+}
+.form-8 label {
+  margin-right: 1rem;
+}
+.multi-select{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
